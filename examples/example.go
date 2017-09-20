@@ -1,4 +1,4 @@
-package main
+package examples
 
 import (
 	"context"
@@ -11,11 +11,7 @@ import (
 	"github.com/streadway/amqp"
 )
 
-func main() {
-
-}
-
-func main2() {
+func BasicExample() {
 	settings := connection.Settings{
 		Host:            "rabbit1.localhost",
 		Port:            5672,
