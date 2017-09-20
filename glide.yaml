@@ -1,0 +1,10 @@
+package: github.com/DmitriyMV/amqpkeeper
+import:
+- package: github.com/pkg/errors
+  version: 2b3a18b5f0fb6b4f9190549597d3f962c02bc5eb
+- package: github.com/streadway/amqp
+  version: 2cbfe40c9341ad63ba23e53013b3ddc7989d801c
+- package: golang.org/x/net
+  version: 8351a756f30f1297fe94bbf4b767ec589c6ea6d0
+- package: golang.org/x/sync
+  version: f52d1811a62927559de87708c8913c1650ce4f26
